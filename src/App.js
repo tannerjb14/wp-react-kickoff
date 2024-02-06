@@ -1,11 +1,13 @@
 import React from 'react';
-import Settings from './components/Settings';
+import RoleComponent from './components/RoleComponent';
+import './css/styles.css';
 
 function App() {
-    return(
+    return (
         <React.Fragment>
-            <Settings />
+            <RoleComponent/>
         </React.Fragment>
-    )
+    );
 }
+
 export default App;

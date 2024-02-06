@@ -1,0 +1,41 @@
+.tabs-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tab {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #2271b1;
+    color: white;
+  }
+  
+  .tab input[type="radio"] {
+    display: none;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+    background-color: white;
+  }
+  
+  .tab-content li {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .tab-content div {
+    padding: 10px;
+  }
